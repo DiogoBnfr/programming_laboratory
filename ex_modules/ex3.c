@@ -10,7 +10,7 @@ void array_max_min(int *arr, size_t size) {
 		if (arr[i] > max) { max = arr[i]; }
 		if (arr[i] < min) { min = arr[i]; }
 	}
-	printf("\nMax: %d\nMin: %d\n", max, min);
+	printf("Max: %d\nMin: %d\n", max, min);
 }
 
 int main() {
